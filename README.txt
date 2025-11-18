@@ -1,7 +1,5 @@
-'
-                                      ~LC-MS untargeted analysis_Post-processing workflow in R~
-  This code includes several steps of post-processing, from imputation and plotting PCAs,
-                      to calculatiing correlations, filtering, and statistical analysis.
+LC-MS untargeted analysis_Post-processing workflow in R
+This code includes several steps of post-processing, from imputation and plotting PCAs, to calculatiing correlations, filtering, and statistical analysis.
 
 Example_Dataset and the folder "Functions must be in the same directory of the R file "LCMS_PostProcessing_Workflow"
                       
@@ -17,4 +15,5 @@ library("ggrepel")      #for Plots
 library("readxl")       #to read xslx files
 library("dplyr")        #many functions,but here especially necessary for filtering as in filter(RT > L & RT<U)
 library("stats")        #to adjust for multiple tests
+
 
